@@ -19,5 +19,7 @@ ENV XMPP_jid="alertmanager@example.com" \
 	XMPP_to_jid="user@example.com" \
 	XMPP_format="full"
 
+EXPOSE 9199
+
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/start.sh"]
