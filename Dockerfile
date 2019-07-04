@@ -1,5 +1,6 @@
 FROM python:3-alpine
-MAINTAINER Michel <rmichel@devnu11.net>
+
+LABEL build="Thu 04 Jul 2019 10:55:10 PM CEST"
 
 RUN apk update \ 
 	&& apk add -t build-dependencies build-base
