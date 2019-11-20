@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-LABEL build="Thu 04 Jul 2019 10:55:10 PM CEST"
+LABEL build="Wed 20 Nov 2019 10:02:34 PM CET"
 
 RUN apk update \ 
 	&& apk add -t build-dependencies build-base
